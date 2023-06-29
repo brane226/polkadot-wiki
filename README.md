@@ -146,7 +146,7 @@ properly format syntax for elements outside of the standard markdown library.
 built into Docusaurus. Indexing via Algolia provides faster lookup; the actual configuration for
 lookup is located in another repository that Algolia DocSearch maintains.
 
-We have enabled searching on the Wiki by declaring the `algolia` section in the `siteConfig.js` file
+We have enabled search on the Wiki by declaring the `algolia` section in the `siteConfig.js` file
 in `scripts`, and defining an API key and index name that are provided by DocSearch.
 
 ```js
